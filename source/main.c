@@ -10,16 +10,14 @@
 
 int main(void)
 {
-    int option; 
-
-        printf("Select the demo to run (1 - 4):\n");
-        printf("1 - Indexing Strings\n");
-        printf("2 - Tokenizing Strings\n");
-        printf("3 - Concatenating Strings\n");
-        printf("4 - Converting Strings\n");
-        printf("5 - Quit\n");
-        scanf("%d", &option);
-        switch (option)
+    char buff[10]; 
+    do {
+        printf("2 - Tokenizing \n");
+        printf("3 - Concatenating \n");
+        printf("4 - Converting \n");
+        printf("0 - Quit\n");
+        fgets(buff, 10, stdin);
+        switch (buff[0])
         {
         case '1':
             fundamentals();
@@ -33,8 +31,7 @@ int main(void)
         case '4':
             converting();
             break;
-        default:
-            break;
         }
+    }while(buff[0] != '0');
     return 0;
 }
