@@ -33,7 +33,8 @@ int main(void)
         case '4':
             converting();
             break;
+        default:
+            break;
         }
-    printf("Bye!\n");
     return 0;
 }
