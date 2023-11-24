@@ -10,17 +10,16 @@
 
 int main(void)
 {
-    char option[BUFFER_SIZE];
-    do
-    {
+    int option; 
+
         printf("Select the demo to run (1 - 4):\n");
         printf("1 - Indexing Strings\n");
         printf("2 - Tokenizing Strings\n");
         printf("3 - Concatenating Strings\n");
         printf("4 - Converting Strings\n");
         printf("5 - Quit\n");
-        fgets(option, BUFFER_SIZE, stdin);
-        switch (option[0])
+        scanf("%d", &option);
+        switch (option)
         {
         case '1':
             fundamentals();
@@ -35,7 +34,6 @@ int main(void)
             converting();
             break;
         }
-    } while (option[0] != '5');
     printf("Bye!\n");
     return 0;
 }
