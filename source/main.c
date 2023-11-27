@@ -8,10 +8,11 @@
 #include "fundamentals.h"
 #include "converting.h"
 
-int main(void)
+int main()
 {
     char buff[10]; 
     do {
+        printf("1 - Fundamentals \n");
         printf("2 - Tokenizing \n");
         printf("3 - Concatenating \n");
         printf("4 - Converting \n");
