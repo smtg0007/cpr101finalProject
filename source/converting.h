@@ -1,7 +1,7 @@
-#ifndef CONVERTING_H
-#define CONVERTING_H
+#ifndef _CONVERTING_H_
+#define _CONVERTING_H_
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 void converting(void);
 #endif

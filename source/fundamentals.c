@@ -1,6 +1,7 @@
-#include "fundamentals.h"
+#define _CRT_SECURE_NO_WARNINGS
 #define BUFFER_SIZE 80
 #define NUM_INPUT_SIZE 10
+#include "fundamentals.h"
 
 void fundamentals() {
 printf("*** start of Indexing Strings Demo ***\n");

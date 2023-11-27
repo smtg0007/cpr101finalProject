@@ -1,6 +1,6 @@
-#include "manipulating.h"
 #define BUFFER_SIZE 80
 #define _CRT_SECURE_NO_WARNINGS
+#include "manipulating.h"
 
 void manipulating() {
 /* Version 1 */

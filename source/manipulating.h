@@ -1,7 +1,6 @@
-#ifndef MANIPULATING_H // This is the header guard. It prevents the header from being included more than once.
-#define MANIPULATING_H
+#ifndef _MANIPULATING_H_ // This is the header guard. It prevents the header from being included more than once.
+#define _MANIPULATING_H_
 #include <stdio.h> 
-#include <stdlib.h>
 #include <string.h>
-void manipulating();
+void manipulating(void);
 #endif

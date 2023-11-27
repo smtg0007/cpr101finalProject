@@ -1,6 +1,6 @@
-#include "tokenizing.h"
 #define BUFFER_SIZE 300
 #define _CRT_SECURE_NO_WARNINGS
+#include "tokenizing.h"
 
 void tokenizing() {
 /* Version 1 */

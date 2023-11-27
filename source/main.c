@@ -16,7 +16,8 @@ int main()
         printf("2 - Tokenizing \n");
         printf("3 - Concatenating \n");
         printf("4 - Converting \n");
-        printf("0 - Quit\n");
+        printf("0 - Exit\n");
+        printf("Which module to run? \n");
         fgets(buff, 10, stdin);
         switch (buff[0])
         {
