@@ -29,8 +29,3 @@ printf("*** End of Concatenating Strings Demo ***\n\n");
 
 
 }
-
-int main()
-{
-    manipulating();
-}
