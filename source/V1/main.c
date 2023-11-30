@@ -1,3 +1,4 @@
+//Created by: Shaheer Sohail
 #define BUFFER_SIZE 80 
 #define NUM_INPUT_SIZE 10
 #include <stdio.h>
