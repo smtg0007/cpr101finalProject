@@ -1,0 +1,20 @@
+*** Start of Converting Strings to int Demo ***
+Type the int numeric string (q - to quit):
+12345
+Converted number is 12345
+Type the int numeric string (q - to quit):
+1
+Converted number is 1
+Type the int numeric string (q - to quit):
+2147483647
+Converted number is 2147483647
+Type the int numeric string (q - to quit):
+2147483648
+Converted number is -2147483648
+Type the int numeric string (q - to quit):
+
+Converted number is 0
+Type the int numeric string (q - to quit):
+q
+Converted number is 0
+*** End of Converting Strings to int Demo ***
