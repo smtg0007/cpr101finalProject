@@ -1,0 +1,48 @@
+*** start of Indexing Strings Demo ***
+Type a string (q - to quit):
+This is a test string
+Type the character Position within the string:
+5
+The character found at 5 position is 'i'
+Type a string (q - to quit):
+the strat has a 5-way pickup switch for different tones
+Type the character Position within the string:
+52
+The character found at 52 position is 'n'
+Type a string (q - to quit):
+
+Type the character Position within the string:
+0
+The character found at 0 position is ' '
+Type a string (q - to quit):
+test
+Type the character Position within the string:
+10
+Too big... Position reduced to max. available
+The character found at 3 position is 't'
+Type a string (q - to quit):
+this is a test string
+Type the character Position within the string:
+99
+Too big... Position reduced to max. available
+The character found at 20 position is 'g'
+Type a string (q - to quit):
+this is a test string to see the position::
+Type the character Position within the string:
+10000
+Too big... Position reduced to max. available
+The character found at 42 position is ':'
+Type a string (q - to quit):
+tHis Is a Test to see how many letters can be inputed: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Type the character Position within the string:
+The character found at 0 position is 't'
+Type a string (q - to quit):
+Type the character Position within the string:
+The character found at 0 position is 'a'
+Type a string (q - to quit):
+Type the character Position within the string:
+q
+The character found at 0 position is 'a'
+Type a string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
