@@ -11,7 +11,7 @@
 
 int main()
 {
-    char buff[10]; 
+    char buff[10]; //initializing an array of characters which is 10 bytes long
     do {
         printf("1 - Fundamentals \n");
         printf("2 - Tokenizing \n");
@@ -19,8 +19,8 @@ int main()
         printf("4 - Converting \n");
         printf("0 - Exit\n");
         printf("Which module to run? \n");
-        fgets(buff, 10, stdin);
-        switch (buff[0])
+        fgets(buff, 10, stdin); //putting each character into separate slots in the buff array
+        switch (buff[0]) 
         {
         case '1':
             fundamentals();
@@ -35,6 +35,6 @@ int main()
             converting();
             break;
         }
-    }while(buff[0] != '0');
+    }while(buff[0] != '0'); 
     return 0;
 }
