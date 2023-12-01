@@ -1,5 +1,4 @@
 //Created by: Shaheer Sohail
-/*The goal of this program is to find the position of a certain character in a user String input*/
 #define _CRT_SECURE_NO_WARNINGS
 #define BUFFER_SIZE 80
 #define NUM_INPUT_SIZE 10
