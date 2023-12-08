@@ -5,23 +5,24 @@
 #include "fundamentals.h"
 
 void fundamentals() {
-// /* Version 2 */
-printf("*** Start of Measuring Strings Demo ***\n");
-char buffer2[BUFFER_SIZE]; //initializing an array of characters which is 80 bytes long
-do{
-    printf("Type a string (q - to quit):\n");
-    fgets(buffer2, BUFFER_SIZE, stdin); //putting each character into separate slots in the buffer2 array
-    buffer2[strlen(buffer2) - 1 ] = '\0'; // taking last slot in the array and putting the '0' character
-    if (strcmp(buffer2, "q") != 0) 
-    {
-        printf("The length of \'%s\' is %d\n", buffer2, (int)strlen(buffer2)); //prints out the length of the string
-    }
-} while(strcmp(buffer2, "q") != 0);
-printf("*** End of Measuring Strings Demo ***\n\n");
-
 
 // /* Version 3 */
-// >> insert here
 
+printf("*** Start of copying Strings Demo ***\n");
+char destinition[BUFFER_SIZE]; //initializing an array of characters which is 80 bytes long
+char source[BUFFER_SIZE]; //initializing an array of characters which is 80 bytes long
+do{
+    destinition[0] = '\0'; // taking last slot in the array and putting the '0' character
+    printf("Destination string is reset to empty\n");
+    printf("Type the source string (q - to quit):\n"); 
+    fgets(source, BUFFER_SIZE, stdin); //putting each character into separate slots in the phrase array
+    source[strlen(source) - 1] = '\0'; // taking last slot in the array and putting the '0' character
+    if(strcmp(source, "q") != 0)
+    {
+        strcpy(destinition, source); 
+        printf("New destination string is \'%s\'\n", destinition); //prints out the phrase and the number of the phrase
+    }
+}while(strcmp(source, "q") != 0);
+printf("*** End of copying Strings Demo ***\n\n");
 
 }
