@@ -4,6 +4,7 @@
         "string.h": "c",
         "stdlib.h": "c",
         "stdio.h": "c",
-        "converting.h": "c"
+        "converting.h": "c",
+        "manipulating.h": "c"
     }
 }
